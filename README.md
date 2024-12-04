@@ -13,13 +13,13 @@
    docker docker-compose up -d
    ```
    
-## *installer 2 images*
+## *images to install*
 
 ### 1: Mongo:
    * Mongo
 
 ### 2: Mongo Express:
-   * Web aplication for database interface
+   * Mongo interface
    ```bash
 localhost:8081
 ```  
@@ -36,6 +36,10 @@ localhost:8081
   - Username: `admin`
   - Password: `pass`
 
+- **Using Visual studio code**:
+  - Install MongoDB extension
+  - Connect to localhost:27017
+    
 ### Linux
 
 - **Using Terminal**:
