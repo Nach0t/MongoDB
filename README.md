@@ -13,10 +13,10 @@
    docker docker-compose up -d
    ```
    
-## *images to install*
+## *Images to install*
 
 ### 1: Mongo:
-   * Mongo
+   * Mongo database
 
 ### 2: Mongo Express:
    * Mongo database interface
@@ -24,7 +24,8 @@
    ```bash
 localhost:8081
 ```  
-use in your browser to connect to interface
+Use in your browser to connect to interface
+
 ### Windows
 
 - **Using CMD**:
@@ -40,6 +41,9 @@ use in your browser to connect to interface
 - **Using Visual studio code**:
   - Install MongoDB extension
   - Connect to localhost:27017
+  - Create a .mongodb file in your proejct directory
+
+Then you can start coding.
     
 ### Linux
 
@@ -53,6 +57,7 @@ use in your browser to connect to interface
   - Username: `admin`
   - Password: `pass`
 
+Then you can start coding.
 ## Stopping/Removing Container
 
 - Stop:
