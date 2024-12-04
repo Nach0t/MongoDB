@@ -19,7 +19,7 @@
    * Mongo
 
 ### 2: Mongo Express:
-   * Web Aplication
+   * Web aplication for database interface
    ```bash
 localhost:8081
 ```  
