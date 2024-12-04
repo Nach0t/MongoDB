@@ -19,12 +19,12 @@
    * Mongo
 
 ### 2: Mongo Express:
-   * Mongo interface
-use
+   * Mongo database interface
+
    ```bash
 localhost:8081
 ```  
-in your browser to connect to interface
+use in your browser to connect to interface
 ### Windows
 
 - **Using CMD**:
