@@ -4,7 +4,6 @@
 ## Prerequisites
 
 - **Docker Desktop**
-- **MongoDB Docker Image**
 
 ## Quick Setup
 
@@ -16,10 +15,10 @@
    
 ## *installer 2 images*
 
-### 1: Mongo Latex:
+### 1: Mongo:
    * Mongo
 
-### 2: Mongo Expres:
+### 2: Mongo Express:
    * Web Aplication
    ```bash
 localhost:8081
@@ -53,9 +52,9 @@ localhost:8081
 
 - Stop:
   ```bash
-  docker stop mongodb-container
+  docker stop mongo-server mongo-client
   ```
 - Remove:
   ```bash
-  docker rm mongodb-container
+  docker rm mongo-server mongo-client
   ```
