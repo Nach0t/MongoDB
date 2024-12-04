@@ -71,7 +71,7 @@
   docker exec -it mongodb-container mongosh -u admin -p pass
   ```
 - **Using GUI**:
-  - Host: `localhost`
+  - Host: `8081`
   - Port: `27017`
   - Username: `admin`
   - Password: `pass`
