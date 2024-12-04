@@ -14,8 +14,17 @@
 
 2. **Run docker-compose.yml**
    ```bash
-   docker docker-compose up
+   docker docker-compose up -d
    ```
+
+## *installer 2 images*
+
+### 1: Mongo Latex:
+   * MongoDB
+
+### 2: Mongo Expres:
+   * Web Aplication
+
 
 ## Connecting to MongoDB
 
@@ -24,7 +33,7 @@
   docker exec -it mongodb-container mongosh -u admin -p password
   ```
 - **Using GUI**:
-  - Host: `localhost`
+  - Host: `8081`
   - Port: `27017`
   - Username: `admin`
   - Password: `password`
