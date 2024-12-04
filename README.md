@@ -9,8 +9,9 @@
 ## Quick Setup
 
 1. **Run docker-compose.yml**
+   
    ```bash
-      docker docker-compose up -d
+   docker docker-compose up -d
    ```
    
 ## *installer 2 images*
@@ -20,9 +21,9 @@
 
 ### 2: Mongo Expres:
    * Web Aplication
-    ```bash
-     localhost:8081
-     ```  
+   ```bash
+localhost:8081
+```  
 
 ### Windows
 
