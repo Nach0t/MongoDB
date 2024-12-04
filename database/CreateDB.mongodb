@@ -1,0 +1,34 @@
+// Conexión y creación de la base de datos
+use ('Universidad');
+
+// Colección de estudiantes
+db.Estudiantes.insertMany([
+  { nombre: "Juan Pérez", edad: 22, carrera: "Ingeniería en Sistemas", semestre: 6 },
+  { nombre: "Ana López", edad: 20, carrera: "Administración de Empresas", semestre: 4 },
+  { nombre: "Carlos Gómez", edad: 23, carrera: "Derecho", semestre: 7 },
+  { nombre: "María Rodríguez", edad: 21, carrera: "Medicina", semestre: 5 }
+]);
+
+// Colección de profesores
+db.Profesores.insertMany([
+  { nombre: "Dr. Pedro Martínez", edad: 45, departamento: "Ciencias Exactas", titulo: "PhD en Matemáticas" },
+  { nombre: "Lic. Laura Fernández", edad: 38, departamento: "Ciencias Sociales", titulo: "Licenciada en Sociología" },
+  { nombre: "Ing. Jaime Torres", edad: 50, departamento: "Ingeniería", titulo: "Ingeniero Civil" }
+]);
+
+// Colección de cursos
+db.Cursos.insertMany([
+  { nombre: "Cálculo Diferencial", codigo: "MAT101", creditos: 3, profesor: "Dr. Pedro Martínez" },
+  { nombre: "Introducción a la Programación", codigo: "INF102", creditos: 4, profesor: "Ing. Jaime Torres" },
+  { nombre: "Psicología Básica", codigo: "SOC103", creditos: 2, profesor: "Lic. Laura Fernández" }
+]);
+
+// Colección de inscripciones
+db.Inscripciones.insertMany([
+  { estudiante: "Juan Pérez", curso: "Introducción a la Programación", semestre: 6, nota: 85 },
+  { estudiante: "Ana López", curso: "Psicología Básica", semestre: 4, nota: 90 },
+  { estudiante: "Carlos Gómez", curso: "Cálculo Diferencial", semestre: 7, nota: 78 }
+]);
+
+// Verificación de inserción
+print("Datos de la Universidad cargados exitosamente.");
