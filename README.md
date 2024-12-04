@@ -12,7 +12,7 @@
    ```bash
       docker docker-compose up -d
    ```
-
+   
 ## *installer 2 images*
 
 ### 1: Mongo Latex:
@@ -21,8 +21,8 @@
 ### 2: Mongo Expres:
    * Web Aplication
     ```bash
-      localhost:8081
-   ```
+     localhost:8081
+     ```  
 
 ### Windows
 
