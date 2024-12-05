@@ -41,7 +41,7 @@ Use in your browser to connect to interface
 - **Using Visual studio code**:
   - Install MongoDB extension
   - Connect to localhost:27017
-  - Create a .mongodb file in your proejct directory
+  - Create a .mongodb file in your proejct directory (You can use the file in the database folder)
 
 Then you can start coding.
     
