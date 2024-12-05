@@ -30,7 +30,7 @@ Use in your browser to connect to interface
 
 - **Using CMD**:
   ```bash
-  docker exec -it mongodb-container mongosh -u admin -p pass
+  docker exec -it mongo-server mongosh -u admin -p pass
   ```
 - **Using GUI**:
   - Host: `8081`
@@ -49,7 +49,7 @@ Then you can start coding.
 
 - **Using Terminal**:
   ```bash
-  docker exec -it mongodb-container mongosh -u admin -p pass
+  docker exec -it mongo-server mongosh -u admin -p pass
   ```
 - **Using GUI**:
   - Host: `8081` 
