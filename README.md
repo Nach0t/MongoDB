@@ -10,10 +10,16 @@
 1. **Run docker-compose.yml**
    
    ```bash
-   docker docker-compose up -d
+   cd docker/ docker docker-compose up -d
    ```
    
 ## *Images to install*
+
+**Run docker-compose.yml**
+   
+   ```bash
+   cd database/ jsc CreateDB
+   ```
 
 ### 1: Mongo:
    * Mongo database
